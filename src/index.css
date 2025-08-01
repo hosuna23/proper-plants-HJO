@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.sections {
+  display: flex;
+  gap: 2rem;
+}
+
+.plant-section {
+  flex: 3;
+}
+
+.cart {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.plantList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.image {
+  font-size: 2.5rem;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #333;
+  background: white;
+  cursor: pointer;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.cart-item span {
+  flex: 1;
+}
+
+.result {
+  text-align: center;
+}
